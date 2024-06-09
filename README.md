@@ -8,3 +8,9 @@
     7. Documentation: Provide clear and comprehensive documentation for your project. Describe the problem statement, data sources, data preprocessing steps, feature engineering, model selection, and evaluation metrics.
     8. Data Visualization: Use effective data visualizations to communicate insights and model results. Visuals should be clear, informative, and visually appealing.
     9. Model Deployment: Consider the deployment of the trained model in a real-world scenario if applicable. Discuss how the model can be integrated into an existing system or make predictions in real-time.
+
+Limitation and what can be improved
+Combine this model with with a regression model to predict how much of a credit limit an applicant will be approved for.
+Hyperparameter tuning with grid search or random search.
+Better interpretation of the chi-square test
+Retrain the model without the least predictive features
