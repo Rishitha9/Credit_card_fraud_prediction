@@ -1,6 +1,42 @@
-      1. Data Exploration and Analysis: Conduct thorough data exploration and analysis to gain insights into the data's characteristics, patterns, and relationships. Use appropriate visualizations and descriptive statistics to understand the data better.
-      ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/f0002ad1-30ff-4bc2-991d-8e32191a0e42)
+The dataset train.csv is used for training. The train dataset had 2,45,725 records with 11 features.
+The dataset consisted the following attributes :
 
+ID : Unique Identifier for a row
+Gender : Gender of the Customer
+Age : Age of the Customer (in Years)
+Region_Code : Code of the Region for the customers
+Occupation : Occupation Type for the customer
+Channel_Code : Acquisition Channel Code for the Customer (Encoded)
+Vintage : Vintage for the Customer (In Months)
+Credit_Product : If the Customer has any active credit product (Home loan, Personal loan, Credit Card etc.)
+Avg_Account_Balance : Average Account Balance for the Customer in last 12 Months
+Is_Active : If the Customer is Active in last 3 Months
+Is_Lead(Target) : If the Customer is interested for the Credit Card (0 : Customer is not interested , 1 : Customer is interested)
+
+      
+      1. Data Exploration and Analysis: Conduct thorough data exploration and analysis to gain insights into the data's characteristics, patterns, and relationships. Use appropriate visualizations and descriptive statistics to understand the data better.
+      n this step features having missing values and outliers, target variable distribution, numerical feature distribution, categorical feature distribution, Univariate and Bivariate Analysis was performed.
+Some of the data insights are given below. (For the detail EDA please refer to the ipynb notebook)
+
+Customers aged between 40-60 have greater interest in credit cards whereas customers in their 20s and 30s and less interested
+
+Salaried person are less likely to take up credit cards. Only among Entrepreneur the number of customers interested to take up credit cards is more. 66% of total Customers falling in Entrepreneural category in Occupation have shown interest in the past followed by 27.6% Self Employed, 24.5% in Others category and 16% Salaried.There are only 2 Entrepreneurs who don't have any credit product.
+
+
+Number of Customers having credit products who are interested in Credit Card is more than those who donot have a Credit Product.
+. Data Cleaning
+The Missing Value in the Credit_Product column is imputed with No_Info
+3. Feature Engineering
+The categorical features (Gender, Region_Code, Occupation, Channel_Code, Credit_Product, Is_Active) were One Hot Encoded.
+4. Oversampling (Handling Class Imbalance in Target Feature)
+About 76.27% customers are not interested in credit card, and about 23.72% are interested in credit card. To address this imbalance Oversampling techniques like SMOTE is used.
+5. Modelling and Hyperparameter Tuning
+In Modelling both LightGBM and Xgboost is used.
+For combining the predictions made by XGBoost and Light GBM, stacking is used
+The models are tuned using Randomized Search CV
+To check for overfitting 5 kfold cross validation was performed
+      
+      
     2. Data Preprocessing: Clean, preprocess, and transform the data to make it suitable for modeling. Handle missing values, outliers, and data inconsistencies appropriately.
     3. Feature Engineering: Create new features or transform existing features to improve model performance and capture relevant information from the data.
     4. Model Selection: Choose appropriate machine learning algorithms or statistical models based on the problem type and data characteristics. Consider the trade-offs between interpretability and predictive power.
