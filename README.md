@@ -1,5 +1,6 @@
-    1. Data Exploration and Analysis: Conduct thorough data exploration and analysis to gain insights into the data's characteristics, patterns, and relationships. Use appropriate visualizations and descriptive statistics to understand the data better.
-	
+      1. Data Exploration and Analysis: Conduct thorough data exploration and analysis to gain insights into the data's characteristics, patterns, and relationships. Use appropriate visualizations and descriptive statistics to understand the data better.
+      ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/f0002ad1-30ff-4bc2-991d-8e32191a0e42)
+
     2. Data Preprocessing: Clean, preprocess, and transform the data to make it suitable for modeling. Handle missing values, outliers, and data inconsistencies appropriately.
     3. Feature Engineering: Create new features or transform existing features to improve model performance and capture relevant information from the data.
     4. Model Selection: Choose appropriate machine learning algorithms or statistical models based on the problem type and data characteristics. Consider the trade-offs between interpretability and predictive power.
