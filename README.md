@@ -14,8 +14,7 @@ Is_Active : If the Customer is Active in last 3 Months
 Is_Lead(Target) : If the Customer is interested for the Credit Card (0 : Customer is not interested , 1 : Customer is interested)
 
       
-      1. Data Exploration and Analysis: Conduct thorough data exploration and analysis to gain insights into the data's characteristics, patterns, and relationships. Use appropriate visualizations and descriptive statistics to understand the data better.
-      n this step features having missing values and outliers, target variable distribution, numerical feature distribution, categorical feature distribution, Univariate and Bivariate Analysis was performed.
+      
 Some of the data insights are given below. (For the detail EDA please refer to the ipynb notebook)
 
 Customers aged between 40-60 have greater interest in credit cards whereas customers in their 20s and 30s and less interested
@@ -36,7 +35,7 @@ For combining the predictions made by XGBoost and Light GBM, stacking is used
 The models are tuned using Randomized Search CV
 To check for overfitting 5 kfold cross validation was performed
       
-      
+1. Data Exploration and Analysis: Conduct thorough data exploration and analysis to gain insights into the data's characteristics, patterns, and relationships. Use appropriate visualizations and descriptive statistics to understand the data better.this step features having missing values and outliers, target variable distribution, numerical feature distribution, categorical feature distribution, Univariate and Bivariate Analysis was performed.
     2. Data Preprocessing: Clean, preprocess, and transform the data to make it suitable for modeling. Handle missing values, outliers, and data inconsistencies appropriately.
     3. Feature Engineering: Create new features or transform existing features to improve model performance and capture relevant information from the data.
     4. Model Selection: Choose appropriate machine learning algorithms or statistical models based on the problem type and data characteristics. Consider the trade-offs between interpretability and predictive power.
