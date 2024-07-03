@@ -15,9 +15,10 @@ simple data exploration using means of all the variables by defaulted person aga
 ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/26c9d30b-2dc7-4c59-87dc-9287547e75b7)
 
 
-### Data Cleaning
+Data Cleaning-
 There are no null values
 
+Train and split-
 Test which model most accurately predict the test data
 
 I chose the 3 most accurate classifying algorithms. Using these 3 algorithms I tried to fit models but with data that was over sampled using SMOTE - Synthetic Minority Over-Sampling Technique.
