@@ -10,13 +10,12 @@ We have to build a classification model to predict whether a transaction is frau
 # Exploratory Data Analysis
 simple data exploration using means of all the variables by defaulted person against not defaulted. also a correlation matrix between all the variables to find variables with strong correlation that can be reduced. And a linear regression to explore how strong is the correlation of independent variables (features) to the dependent variable (default).
 ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/9e429975-bb42-442c-ab40-873272197a07)
-
 ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/1151b50d-45b9-4e35-8f59-c12e792c5f16)
 ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/7a4627f8-763f-456a-8f08-9ec880be2b7b)
 ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/26c9d30b-2dc7-4c59-87dc-9287547e75b7)
 
 
-# Data Cleaning
+### Data Cleaning
 There are no null values
 
 Test which model most accurately predict the test data
