@@ -21,9 +21,9 @@ There are no null values
 Train and split-
 Test which model most accurately predict the test data
 
-I chose the 3 most accurate classifying algorithms. Using these 3 algorithms I tried to fit models but with data that was over sampled using SMOTE - Synthetic Minority Over-Sampling Technique.
+I chose the 3 most accurate classifying algorithms. Using these 2 algorithms I tried to fit models but with data that was over sampled using SMOTE - Synthetic Minority Over-Sampling Technique.
 
-Test the prediction accuracy of the fitted models from step 4 and compare them to the result from step 3, before the resample. The goal of steps 4-5 is to examine if the oversampling of the data contributes to our ability accurately predict the outcome, i.e credit card clients default.
+Test the prediction accuracy of the fitted models from step 4 and compare them to the result , before the resample. To examine if the oversampling of the data contributes to our ability accurately predict the outcome, i.e credit card clients default.
 
 I choose the most accurate algorithm then Test different hyper parameters for this algorithm using a cross-validated grid-search over a parameter grid ('GridSearchCV' algorithm of scikit-learn package), to find the parameters that can give a better predictive result than the default hyper parameters used in previous steps.
 
