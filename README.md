@@ -7,6 +7,8 @@ We have to build a classification model to predict whether a transaction is frau
 - Total Transactions: 284,807
 - Fraudulent Transactions: 492 (0.172% of all transactions)
 # Exploratory Data Analysis
+![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/1151b50d-45b9-4e35-8f59-c12e792c5f16)
+
 # Data Cleaning
 
 # Dealing with Imbalanced data
