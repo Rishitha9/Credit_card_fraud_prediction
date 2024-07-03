@@ -6,7 +6,9 @@ We have to build a classification model to predict whether a transaction is frau
 # Data summary
 - Total Transactions: 284,807
 - Fraudulent Transactions: 492 (0.172% of all transactions)
+
 # Exploratory Data Analysis
+simple data exploration using means of all the variables by defaulted person against not defaulted. also a correlation matrix between all the variables to find variables with strong correlation that can be reduced. And a linear regression to explore how strong is the correlation of independent variables (features) to the dependent variable (default).
 ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/9e429975-bb42-442c-ab40-873272197a07)
 
 ![image](https://github.com/Rishitha9/Credit_card_fraud_prediction/assets/56880713/1151b50d-45b9-4e35-8f59-c12e792c5f16)
@@ -16,9 +18,13 @@ We have to build a classification model to predict whether a transaction is frau
 
 # Data Cleaning
 There are no null values
-# Dealing with Imbalanced data
-# Feature Engineering
-# Model Selection
-# Model Training
-# Model Validation
-#	Model Deployment
+
+Test which model most accurately predict the test data
+
+From step 3 I chose the 3 most accurate classifying algorithms. Using these 3 algorithms I tried to fit models but with data that was over sampled using SMOTE - Synthetic Minority Over-Sampling Technique.
+
+Test the prediction accuracy of the fitted models from step 4 and compare them to the result from step 3, before the resample. The goal of steps 4-5 is to examine if the oversampling of the data contributes to our ability accurately predict the outcome, i.e credit card clients default.
+
+From step 5 I choose the most accurate algorithm then Test different hyper parameters for this algorithm using a cross-validated grid-search over a parameter grid ('GridSearchCV' algorithm of scikit-learn package), to find the parameters that can give a better predictive result than the default hyper parameters used in previous steps.
+
+
