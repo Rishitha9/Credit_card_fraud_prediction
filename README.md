@@ -21,7 +21,7 @@ There are no null values
 Train and split-
 Test which model most accurately predict the test data
 
-I chose the 3 most accurate classifying algorithms. Using these 2 algorithms I tried to fit models but with data that was over sampled using SMOTE - Synthetic Minority Over-Sampling Technique.
+I chose the 2 most accurate classifying algorithms. Using these 2 algorithms I tried to fit models but with data that was over sampled using SMOTE - Synthetic Minority Over-Sampling Technique.
 
 Test the prediction accuracy of the fitted models from step 4 and compare them to the result , before the resample. To examine if the oversampling of the data contributes to our ability accurately predict the outcome, i.e credit card clients default.
 
